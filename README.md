@@ -1,18 +1,18 @@
 # PwAirport - Mixed Reality Project
 
-Progetto Unity di Mixed Reality sviluppato da Gruppo1.
+Progetto Unity di Mixed Reality sviluppato da Gruppo1 per **Meta Quest (Oculus)**.
 
 ## Informazioni Progetto
 
 - **Nome:** MRProject (PwAirport)
-- **Piattaforma:** Android
+- **Piattaforma:** Meta Quest / Oculus (Android-based)
 - **Unity Version:** Compatible with Unity 2021.3+
 - **Template:** Unity Mixed Reality Template v2.2.0
 
 ## Tecnologie Utilizzate
 
 - **XR Interaction Toolkit** v3.2.1
-- **XR Hands** v1.6.1
+- **XR Hands** v1.6.1 (Hand tracking per Meta Quest)
 - **AR Foundation**
 - **Unity Input System**
 
@@ -20,7 +20,8 @@ Progetto Unity di Mixed Reality sviluppato da Gruppo1.
 
 - Unity 2021.3 o superiore
 - Android SDK (API Level 32)
-- Dispositivo Android con supporto AR/MR
+- Meta Quest 2/3/Pro con supporto MR
+- Oculus Integration SDK (se necessario)
 
 ## Setup
 
@@ -29,12 +30,15 @@ Progetto Unity di Mixed Reality sviluppato da Gruppo1.
 3. Attendere che Unity importi tutti i package necessari
 4. Configurare le impostazioni Android in Build Settings
 
-## Build
+## Build per Meta Quest
 
-Per buildare il progetto per Android:
+Per buildare il progetto per Meta Quest:
 1. File > Build Settings
 2. Selezionare Android platform
-3. Cliccare su Build o Build and Run
+3. Collegare il Meta Quest via USB (con Developer Mode attivo)
+4. Cliccare su Build and Run per installare direttamente sul visore
+
+**Note:** Il progetto è compilato per Android perché Meta Quest utilizza Android come sistema operativo.
 
 ## Struttura Progetto
 
